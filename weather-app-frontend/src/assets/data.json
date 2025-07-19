@@ -1,0 +1,72 @@
+[
+  {
+    "location": "Colombo, LK",
+    "time": "9.19am, Feb 8",
+    "temperature": "27°C",
+    "condition": "Few Clouds",
+    "temp_min": "25°C",
+    "temp_max": "28°C",
+    "pressure": "1018hPa",
+    "humidity": "78%",
+    "visibility": "8.0km",
+    "wind": "4.0m/s 120 Degree",
+    "sunrise": "6:05am",
+    "sunset": "6:05am"
+  },
+  {
+    "location": "Tokyo, JP",
+    "time": "9.19am, Feb 8",
+    "temperature": "7°C",
+    "condition": "Broken Clouds",
+    "temp_min": "-7°C",
+    "temp_max": "7°C",
+    "pressure": "1018hPa",
+    "humidity": "78%",
+    "visibility": "8.0km",
+    "wind": "4.0m/s 120 Degree",
+    "sunrise": "6:05am",
+    "sunset": "6:05am"
+  },
+  {
+    "location": "Liverpool, GB",
+    "time": "9.19am, Feb 8",
+    "temperature": "-2°C",
+    "condition": "Clear Sky",
+    "temp_min": "-2°C",
+    "temp_max": "5°C",
+    "pressure": "1018hPa",
+    "humidity": "78%",
+    "visibility": "8.0km",
+    "wind": "4.0m/s 120 Degree",
+    "sunrise": "6:05am",
+    "sunset": "6:05am"
+  },
+  {
+    "location": "Sydney, AU",
+    "time": "9.19am, Feb 8",
+    "temperature": "26°C",
+    "condition": "Light Ran",
+    "temp_min": "20°C",
+    "temp_max": "30°C",
+    "pressure": "1018hPa",
+    "humidity": "78%",
+    "visibility": "8.0km",
+    "wind": "4.0m/s 120 Degree",
+    "sunrise": "6:05am",
+    "sunset": "6:05am"
+  },
+  {
+    "location": "Boston, US",
+    "time": "9.19am, Feb 8",
+    "temperature": "13°C",
+    "condition": "Mist",
+    "temp_min": "10°C",
+    "temp_max": "15°C",
+    "pressure": "1018hPa",
+    "humidity": "78%",
+    "visibility": "8.0km",
+    "wind": "4.0m/s 120 Degree",
+    "sunrise": "6:05am",
+    "sunset": "6:05am"
+  }
+]

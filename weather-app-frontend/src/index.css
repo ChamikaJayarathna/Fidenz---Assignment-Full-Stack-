@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --deep-blue: 222, 55%, 29%;
+    --dark-gray: 233, 13%, 14%;
+    --sky-blue: 211, 78%, 57%;
+    --royal-purple: 251, 56%, 55%;
+    --mint-green: 150, 42%, 51%;
+    --amber-orange: 29, 69%, 59%;
+    --brick-red: 0, 46%, 42%;
+    --slate-navy: 228, 12%, 25%;
+  }
+
+  html {
+    font-family: "Open Sans", sans-serif;
+  }
+}
+
+@utility background-top {
+  background: hsl(var(--deep-blue));
+  height: 45%;
+}
+
+@utility background-bottom {
+  background: hsl(var(--dark-gray));
+  height: 100vh;
+}
