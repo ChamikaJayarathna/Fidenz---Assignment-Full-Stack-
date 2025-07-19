@@ -11,6 +11,7 @@
     --amber-orange: 29, 69%, 59%;
     --brick-red: 0, 46%, 42%;
     --slate-navy: 228, 12%, 25%;
+    --charcoal-blue: 226, 12%, 22%;
   }
 
   html {
@@ -25,5 +26,5 @@
 
 @utility background-bottom {
   background: hsl(var(--dark-gray));
-  height: 100vh;
+  min-height: 100vh;
 }
