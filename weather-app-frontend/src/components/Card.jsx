@@ -65,7 +65,7 @@ const Card = (props) => {
   return (
     <div
       onClick={handleCardClick}
-      className="relative z-10 rounded-lg overflow-hidden cursor-pointer"
+      className="relative z-10 rounded-lg overflow-hidden cursor-pointer mx-4 md:mx-0"
     >
       <div
         className={`${getConditionColor(condition)} relative text-white py-10`}
@@ -78,7 +78,7 @@ const Card = (props) => {
         <IoClose className="absolute top-4 right-4 h-5 w-5 text-white" />
         <div className="flex justify-between items-start mb-4 px-16 pt-5">
           <div className="text-center">
-            <h3 className="text-2xl font-semibold">{location}</h3>
+            <h3 className="text-xl md:text-2xl font-semibold">{location}</h3>
             <p className="text-sm opacity-70 mt-1">{time}</p>
           </div>
           <div className="text-left">
@@ -95,13 +95,13 @@ const Card = (props) => {
         </div>
       </div>
       <div className="bg-[hsl(var(--slate-navy))] text-white px-7 py-9">
-        <div className="grid grid-cols-3 divide-x divide-white/20 gap-5">
-          <div className="flex flex-col text-sm font-medium gap-1">
+        <div className="grid md:grid-cols-3 text-center md:text-left divide-y md:divide-y-0 md:divide-x divide-white/20 gap-5">
+          <div className="flex flex-col text-sm font-medium gap-1 py-2 md:py-0">
             <span>Pressure: {pressure}h</span>
             <span>Humidity: {humidity}%</span>
             <span>Visibility: {visibility}km</span>
           </div>
-          <div className="flex flex-col justify-center gap-3">
+          <div className="flex flex-col justify-center gap-3 py-2 md:py-0">
             <TbLocation className="w-8 h-8 mx-auto" />
             <span className="text-xs">{wind} Degree</span>
           </div>
