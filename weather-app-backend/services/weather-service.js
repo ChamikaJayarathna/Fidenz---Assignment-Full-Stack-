@@ -15,7 +15,7 @@ const fetchWeatherData = async (cityCodesKey) => {
 
     // const response = await axios.get(`http://api.openweathermap.org/data/2.5/group?id=${cityCodesKey}&units=metric&appid=${process.env.OPEN_WEATHER_MAP_API_KEY}`);
     const url = `http://api.openweathermap.org/data/2.5/group?id=${cityCodesKey}&units=metric&appid=${process.env.OPEN_WEATHER_MAP_API_KEY}`;
-    console.log("Requesting URL:", url);
+    // console.log("Requesting URL:", url);
     const response = await axios.get(url);
 
     const weatherData = response.data;
